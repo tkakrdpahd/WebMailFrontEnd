@@ -1,6 +1,6 @@
 WebServer # doorimoon.com, doorimoon.kr Server No.1
     ├── homepage/ # HTTPS; FTP Server base 80 & 8080 (https://www.doorimoon.com, www.doorimoon.kr)
-    │   ├── Apache # HTTPS Server; 80 & 8080 (https://www.doorimoon.com, www.doorimoon.kr)
+    │   ├── Apache # HTTPS Server; 80 & 8080. @. TTL; 1800
     │   ├── index.html
     │   ├── index.css
     │   ├── index.js
@@ -14,7 +14,7 @@ WebServer # doorimoon.com, doorimoon.kr Server No.1
     │       ├── log/
     │       └── functions.js # 특수문자 처리, 정보 항목 분류후 반환.
     ├── web_mail/ # HTTPS; ILS Server base 443 (https://mail.doorimoon.com, mail.doorimoon.kr)
-    │   ├── Apache # HTTPS Server; 443 (SSL)
+    │   ├── Apache # HTTPS Server; 443 (SSL). mail. TTL; 3600
     │   ├── index.html
     │   ├── index.css
     │   ├── index.js
@@ -25,3 +25,4 @@ WebServer # doorimoon.com, doorimoon.kr Server No.1
     │   │   ├── listInbox.js # ../mail_nas/user/table.csv
     │   │   ├── viewEmail.js # ../mail_nas/user/table.csv, ../mail_nas/user/
     │   ├── pages/
+    
