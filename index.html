@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mail.DooRiMoon</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="./js/main.js"></script>
+    <!-- call 1st page of mail.js -->
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="https://mail.doorimoon.com/#">
+                <img src="./img/Mail.DooRiMoon.svg">
+            </a>
+        </header>
+        <h2> send mail </h2> <!-- send mail.js -->
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="./img/MailBox.svg"></a></li>
+                    <li><a href="#"><img src="./img/Received.svg"></a></li>
+                    <li><a href="#"><img src="./img/Sent.svg"></a></li>
+                    <li><a href="#">Spam mail</a></li>
+                    <li><a href="#">Draft mail</a></li>
+                </ul>
+            </nav>
+            <section class="mail-list">
+                <table> <!-- if recived send mail ignore this table -->
+                    <thead>
+                        <tr>
+                            <th class="no">No</th>
+                            <th class="sender">Sender</th>
+                            <th class="received-date">Received Date</th>
+                            <th class="title">Title</th>
+                        </tr>
+                    </thead>
+                    <tbody> <!-- need to use js for data table-->
+                        <tr>
+                            <td>1.</td>
+                            <td>received@example.com</td>
+                            <td>received date</td>
+                            <td>Title: examples</td>
+                        </tr> <!-- accepted 10 count -->
+                        <!-- Add more rows for other emails -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Mail.DooRiMoon. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

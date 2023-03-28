@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="195" height="36" viewBox="0 0 128 33">
+    <g transform="translate(-34)">
+        <text transform="translate(98 29)" fill="#707070" font-size="30" font-family="Phosphate-Inline, Phosphate">
+            <tspan x="-63.166" y="0">Mail</tspan>
+            <tspan y="0" font-family="MyanmarMN, Myanmar MN">
+            </tspan>
+            <tspan y="0">Box</tspan>
+        </text>
+    </g>
+</svg>
