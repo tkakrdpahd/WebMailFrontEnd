@@ -1,0 +1,42 @@
+WebServer (doorimoon.com, doorimoon.kr)
+    ├── homepage/ # HTTPS; FTP Server base 80 & 8080 (https://www.doorimoon.com, www.doorimoon.kr)
+    │   ├── index.html
+    │   ├── index.css
+    │   ├── index.js
+    │   ├── css/
+    │   │   ├── about_us.css
+    │   │   ├── member.css
+    │   │   ├── project.css
+    │   │   ├── ir.css
+    │   │   └── contact_us.css
+    │   ├── js/
+    │   │   ├── about_us.js
+    │   │   ├── member.js
+    │   │   ├── project.js # crolling images and videos (../images, videos)
+    │   │   ├── ir.js # KRX API - 주가정보 (Java),
+    │   │   └── contact_us.js
+    │   ├── pages/
+    │   │   ├── about_us.html
+    │   │   ├── member.html
+    │   │   ├── project.html
+    │   │   ├── ir.html
+    │   │   └── contact_us.html
+    │   ├── images/
+    │   ├── videos/
+    │   ├── IR/
+    │   └── swap/
+    │       ├── log/
+    │       └── functions.js # 특수문자 처리, 정보 항목 분류후 반환.
+    │
+    ├── web_mail/ # HTTPS; ILS Server base 443 (https://mail.doorimoon.com, mail.doorimoon.kr)
+    │   ├── Apache # HTTPS Server; 443 (SSL)
+    │   ├── index.html
+    │   ├── index.css
+    │   ├── index.js
+    │   ├── swap/ # send mail swap, login information
+    │   ├── css/
+    │   ├── js/
+    │   │   ├── authenticateUser
+    │   │   ├── listInbox.js # ../mail_nas/user/table.csv
+    │   │   ├── viewEmail.js # ../mail_nas/user/table.csv, ../mail_nas/user/
+    │   ├── pages/
